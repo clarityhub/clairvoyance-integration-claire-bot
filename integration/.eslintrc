@@ -1,0 +1,3 @@
+{
+  "extends": ["claire/node-mocha"]
+}

@@ -1,0 +1,68 @@
+{
+  "development": {
+    "port": "3000",
+    "database": {
+      "username": "postgres",
+      "password": "postgres",
+      "database": "clairvoyance_integration_claire_bot_development",
+      "host": "postgres",
+      "dialect": "postgres"
+    },
+    "elastic": {
+      "host": "elastic",
+      "port": "9200",
+      "username": "elastic",
+      "password": "changeme"
+    },
+    "token": "c87ef7c5-a4b7-4311-b547-ba66022ffe75",
+    "clientId": "c187f47a-552d-4b4b-a572-43d2e8223d50",
+    "clientSecret": "59b7d60a-76e6-47b9-99a6-8a90770319c8",
+    "authUrl": "http://service-auth:3000",
+    "chatUrl": "http://service-chat:3000",
+    "suggestionUrl": "http://service-suggestions:3000"
+  },
+  "test": {
+    "port": "3001",
+    "database": {
+      "username": "postgres",
+      "password": "postgres",
+      "database": "clairvoyance_integration_claire_bot_test",
+      "host": "postgres",
+      "dialect": "postgres"
+    },
+    "elastic": {
+      "host": "elastic",
+      "port": "9200",
+      "username": "elastic",
+      "password": "changeme"
+    },
+    "token": "c87ef7c5-a4b7-4311-b547-ba66022ffe75",
+    "clientId": "c187f47a-552d-4b4b-a572-43d2e8223d50",
+    "clientSecret": "59b7d60a-76e6-47b9-99a6-8a90770319c8",
+    "authUrl": "http://service-auth:3000",
+    "chatUrl": "http://service-chat:3000",
+    "suggestionUrl": "http://service-suggestions:3000"
+  },
+  "production": {
+    "port": "3000",
+    "database": {
+      "username": "postgres",
+      "password": "postgres",
+      "database": "clairvoyance_integration_claire_bot_production",
+      "host": "postgres",
+      "dialect": "postgres"
+    },
+    "elastic": {
+      "host": "elastic",
+      "port": "9200",
+      "username": "elastic",
+      "password": "changeme"
+    },
+    "token": "c87ef7c5-a4b7-4311-b547-ba66022ffe75",
+    "clientId": "c187f47a-552d-4b4b-a572-43d2e8223d50",
+    "clientSecret": "59b7d60a-76e6-47b9-99a6-8a90770319c8",
+    "authUrl": "http://service-auth:3000",
+    "chatUrl": "http://service-chat:3000",
+    "suggestionUrl": "http://service-suggestions:3000"
+  }
+}
